@@ -18,4 +18,6 @@
 6) Création de la page HOME
     - symfony console make:controller
         - composer require annotation
-7)
+7) Création du Register
+    - symfony console make:registration-form
+8)
