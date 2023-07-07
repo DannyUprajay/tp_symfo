@@ -20,4 +20,5 @@
         - composer require annotation
 7) Création du Register
     - symfony console make:registration-form
-8)
+8) Creation du Login
+    - symfony console make:controller login
