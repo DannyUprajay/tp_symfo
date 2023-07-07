@@ -9,4 +9,9 @@
     - symfony console make:entity
         - Article
         - Comment
-5)
+5) Création des relations 
+    - symfony console make:entity
+        - Article
+            - comments
+                - relation
+                    - Comments
