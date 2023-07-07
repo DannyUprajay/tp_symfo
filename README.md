@@ -22,3 +22,10 @@
     - symfony console make:registration-form
 8) Creation du Login
     - symfony console make:controller login
+9) Création du crud
+    - symfony console make:crud
+        + si y'a un probleme de string 
+            -   public function __toString(): string
+    {
+        return $this->getFirstName() . ' ' . $this->getLastName();
+    }
