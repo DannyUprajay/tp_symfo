@@ -5,3 +5,8 @@
 3) Le setup 
     - symfony console make:entity
     - User
+4) création de Article et Comment
+    - symfony console make:entity
+        - Article
+        - Comment
+5)
